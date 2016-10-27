@@ -13,4 +13,3 @@ del CORRECTED['Van Halen']['David Lee Roth']
 
 CORRECTED['Van Halen']['Sammy Hagar'] = ['vocals']
 
-print CORRECTED['Van Halen'].keys()
