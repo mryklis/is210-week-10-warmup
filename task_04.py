@@ -7,6 +7,7 @@ from data import BANDS
 
 BANDS['Buckingham Nicks'] = {'Lindsey Buckingham': ['guitar', 'vocals'],
             'Stevie Nicks': ['vocals', 'tambourine']}
+print BANDS
 
-BANDS['Fleetwood Mac'] = BANDS['Buckingham Nicks']
+BANDS['Fleetwood Mac'].update(BANDS['Buckingham Nicks'])
 
