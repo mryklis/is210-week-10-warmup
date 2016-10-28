@@ -8,5 +8,3 @@ from data import BANDS
 NIGEL = BANDS['Spinal Tap']['Nigel Tufnel']
 
 BAND_NAMES = BANDS.keys()
-
-

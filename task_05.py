@@ -7,4 +7,4 @@ from data import SUPERHEROES
 
 SUPERHEROES = SUPERHEROES.copy()
 
-SUPERHEROES['Logan']['alias'] = 'Wolverine' 
+SUPERHEROES['Logan']['alias'] = 'Wolverine'

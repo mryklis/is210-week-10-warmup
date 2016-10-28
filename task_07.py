@@ -33,8 +33,23 @@ DATA = {
     8: 4337229
 }
 
-def iter_dict_funky_sum(DATA):
-    TOTAL = 0
-    for key, value in DATA.iteritems():
-        TOTAL += (value - key)
-    return TOTAL
+
+def iter_dict_funky_sum(data):
+    """THis function subtracts the key from value
+
+    Args:
+        data (dict): dictionary of integer values
+
+    Returns:
+        sum_total (int): value minus the key
+
+    Example:
+        >>>iter_dict_funky_sum(task_07.DATA)
+        140166242
+
+    """
+
+    sum_total = 0
+    for key, value in data.iteritems():
+        sum_total += (value - key)
+    return sum_total
