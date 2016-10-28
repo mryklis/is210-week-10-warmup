@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""Lesson 07, Task 05"""
+"""This module utilizes for loop in dictionary"""
 
 
 import data
